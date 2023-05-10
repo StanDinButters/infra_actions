@@ -59,7 +59,7 @@ jobs:
           uses: docker/build-push-action@v2 
           with:
             push: true
-            tags: standinbutters/infra_actions:latest
+            tags: standinbutters/infra_actions:new
     
   deploy:
     runs-on: ubuntu-latest
